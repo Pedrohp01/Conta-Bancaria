@@ -6,7 +6,7 @@ public class Conta {
 
     private String numero;
     private String titular;
-    private double saldo;
+    public double saldo;
 
     public Conta(String numero, String titular) {
         this.numero = numero;
@@ -57,6 +57,10 @@ public class Conta {
     public double getSaldo() {
         return saldo;
     }
+public double simularRendimentoMensal() {
+    return saldo * 0.005; // 0,5% ao mês
+}
+
 
     @Override
     public String toString() {

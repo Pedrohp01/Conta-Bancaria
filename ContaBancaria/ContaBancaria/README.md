@@ -28,9 +28,6 @@ SistemaBancarioSimples/
 │ └── contas.txt # (Opcional) para persistência futura
 └── README.md
 
-yaml
-Copiar
-Editar
 
 ---
 
@@ -70,6 +67,3 @@ Tipos de conta (Corrente, Poupança)
 📄 Licença
 Projeto livre para fins educacionais e pessoais.
 
-perl
-Copiar
-Editar
